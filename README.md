@@ -1,3 +1,9 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/FS-make-simple/fxor)
+![GitHub Release Date](https://img.shields.io/github/release-date/FS-make-simple/fxor)
+![GitHub repo size](https://img.shields.io/github/repo-size/FS-make-simple/fxor)
+![GitHub all releases](https://img.shields.io/github/downloads/FS-make-simple/fxor/total)
+![GitHub](https://img.shields.io/github/license/FS-make-simple/fxor)
+
 fxor
 ====
 

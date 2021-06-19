@@ -26,10 +26,13 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+#include <unistd.h>
 
 #ifndef _FXOR_EXITS_H
 #define _FXOR_EXITS_H
-
 
 #define FXOR_EX_OK       0   /* successful termination */
 #define FXOR_EX_USAGE    64  /* invalid command line usage */
@@ -38,5 +41,11 @@
 #define FXOR_EX_ABORT    80  /* fxor abort the operation */
 #define FXOR_EX_NOKEY    81  /* key file is empty */
 
+#ifdef _WIN32
+    #define warnx printf
+    #define warn printf
+#else
+    #include <err.h>
+#endif
 
 #endif /* fxor_exits.h */

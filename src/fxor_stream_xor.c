@@ -26,10 +26,6 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-
-#include <stdio.h>
-#include <err.h>
-
 #include "fxor_exits.h"
 #include "fxor_stream_xor.h"
 

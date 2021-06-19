@@ -27,12 +27,6 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-#include <err.h>
-
 #include "fxor.h"	/* fxor.h include stdbool.h */
 #include "fxor_exits.h"
 
